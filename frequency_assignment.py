@@ -39,8 +39,9 @@ def create_profit_matrix(d_min: float, d_max: float, frequencies: Iterable,
 
 def generate_user_parameters(num_users: int, h_tx: float):
     h_rx = 2*np.random.rand(num_users)+1.
-    d_min = 20*np.random.rand(num_users)+30
-    d_max = 20*np.random.rand(num_users)+30
+    d_min = 20*np.random.rand(num_users)+20
+    _width = 90*np.random.rand(num_users) + 10
+    d_max = d_min + _width
     users = [{"h_tx": h_tx, "h_rx": _h_rx, "d_min": _d_min, "d_max": _d_max}
              for _h_rx, _d_min, _d_max in zip(h_rx, d_min, d_max)]
     return users
@@ -102,8 +103,10 @@ def main(num_users: int = 3, num_frequencies: int = 10, h_tx: float = 10.,
     LOGGER.info("QMKP Times: {}".format(stats.describe(results_qmkp['time'])))
     LOGGER.info("QMKP Times Total: {}".format(stats.describe(results_qmkp['time_total'])))
     LOGGER.info("Random Times: {}".format(stats.describe(results_random['time'])))
-    LOGGER.info("QMKP Profit: {}".format(stats.describe(results_qmkp['profit'])))
-    LOGGER.info("Random Profit: {}".format(stats.describe(results_random['profit'])))
+    LOGGER.debug("QMKP Profit: {}".format(stats.describe(results_qmkp['profit'])))
+    LOGGER.debug("Random Profit: {}".format(stats.describe(results_random['profit'])))
+    LOGGER.info("QMKP Avg Profit: {} dB".format(to_decibel(np.mean(results_qmkp['profit']))))
+    LOGGER.info("Random Avg Profit: {} dB".format(to_decibel(np.mean(results_random['profit']))))
 
 
 if __name__ == "__main__":
