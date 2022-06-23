@@ -1,6 +1,2 @@
 numpy
-matplotlib
-pandas
-jupyter
-ipywidgets
-ipympl
+scipy
