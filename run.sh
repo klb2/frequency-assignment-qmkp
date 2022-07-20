@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# ...
-# Information about the paper...
-# ...
+# This repository is accompanying the paper "Multi-User Frequency Assignment
+# for Ultra-Reliable mmWave Two-Ray Channels" (K.-L. Besser, E. Jorswieck, J.
+# Coon, WiOpt 2022, Sep. 2022).
 #
-# Copyright (C) 20XX ...
+# Copyright (C) 2022
 # License: GPLv3
 
 echo "Combination 1: K=3, N=10"
