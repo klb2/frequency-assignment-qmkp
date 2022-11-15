@@ -1,5 +1,8 @@
 # Multi-User Frequency Assignment for Ultra-Reliable mmWave Two-Ray Channels
 
+[![DOI](https://img.shields.io/badge/doi-10.23919/WiOpt56218.2022.9930571-informational)](https://doi.org/10.23919/WiOpt56218.2022.9930571)
+![GitHub](https://img.shields.io/github/license/klb2/ris-phase-hopping)
+
 This repository is accompanying the paper "Multi-User Frequency Assignment for
 Ultra-Reliable mmWave Two-Ray Channels" (K.-L.  Besser, E. Jorswieck, J. Coon,
 WiOpt 2022, Sep. 2022.
