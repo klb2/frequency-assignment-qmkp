@@ -2,7 +2,9 @@
 
 This repository is accompanying the paper "Multi-User Frequency Assignment for
 Ultra-Reliable mmWave Two-Ray Channels" (K.-L.  Besser, E. Jorswieck, J. Coon,
-WiOpt 2022, Sep. 2022).
+WiOpt 2022, Sep. 2022.
+[doi:10.23919/WiOpt56218.2022.9930571](https://doi.org/10.23919/WiOpt56218.2022.9930571),
+[arXiv:2211.07204](https://arxiv.org/abs/2211.07204)).
 
 
 ## File List
@@ -60,3 +62,20 @@ Grant 16KISK020K and by the EPSRC under grant number EP/T02612X/1.
 This program is licensed under the GPLv3 license. If you in any way use this
 code for research that results in publications, please cite our original
 article listed above.
+
+You can use the following BibTeX entry
+```bibtex
+@inproceedings{Besser2022wiopt,
+	author = {Besser, Karl-Ludwig and Jorswieck, Eduard A. and Coon, Justin P.},
+	title = {Multi-User Frequency Assignment for Ultra-Reliable mmWave Two-Ray Channels},
+	booktitle = {20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt)},
+	year = {2022},
+	month = {9},
+	pages = {283--290},
+	publisher = {IEEE},
+	doi = {10.23919/WiOpt56218.2022.9930571},
+	archiveprefix = {arXiv},
+	eprint = {2211.07204},
+	primaryclass = {cs.IT},
+}
+```

@@ -2,7 +2,7 @@
 
 # This repository is accompanying the paper "Multi-User Frequency Assignment
 # for Ultra-Reliable mmWave Two-Ray Channels" (K.-L. Besser, E. Jorswieck, J.
-# Coon, WiOpt 2022, Sep. 2022).
+# Coon, WiOpt 2022, Sep. 2022. doi:10.23919/WiOpt56218.2022.9930571).
 #
 # Copyright (C) 2022
 # License: GPLv3
